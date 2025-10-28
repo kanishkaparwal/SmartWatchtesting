@@ -32,7 +32,7 @@ import cv2
 ADB = "adb"  # or full path to adb
 REMOTE_SCREENSHOT = "/sdcard/automation_screen.png"
 LOCAL_SCREENSHOT = "screen.png"
-OPENAI_API_KEY = os.environ.get("OPENAI_API_KEY", "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")
+OPENAI_API_KEY = os.environ.get("OPENAI_API_KEY", "Api-key")
 OPENAI_VISION_ENDPOINT = "https://api.openai.com/v1/chat/completions"  # placeholder; adapt to actual endpoint
 VISION_MODEL = "gpt-4o"  # placeholder model name; change if needed
 
